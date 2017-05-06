@@ -12,13 +12,13 @@ knitr::opts_chunk$set(
 
 # NOAACoursera
 
-[![Build Status](https://travis-ci.org/JhossePaul/NOAACoursera.svg?branch=master)](https://travis-ci.org/JhossePaul/NOAACoursera) 
+[![Build Status](https://travis-ci.org/rhkaz/noaamsdr.svg?branch=master)](https://travis-ci.org/rhkaz/noaamsdr) 
 
-[Building details](https://travis-ci.org/JhossePaul/NOAACoursera)
+[Building details](https://travis-ci.org/rhkaz/noaamsdr)
 
 The goal of NOAACoursera is to create a package to manipulate and analyze the
 eartquakes [NOAA dataset](NOAA). This project corresponds to the capstone project of the 
-"Mastering Software Development in R" Coursera's specialization.
+"Mastering Software Development in R" Coursera's specialisation.
 
 ## Installation
 
@@ -44,7 +44,7 @@ specify another path. Just write
 ```{r}
 library(tidyverse)
 library(lubridate)
-library(NOAACoursera)
+library(noaamsdr)
 eq_get_data() %>% glimpse
 ```
 
