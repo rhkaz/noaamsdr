@@ -1,7 +1,7 @@
 ## ------------------------------------------------------------------------
 library(tidyverse)
 library(lubridate)
-library(NOAACoursera)
+library(noaamsdr)
 
 eq_get_data() %>% glimpse
 
