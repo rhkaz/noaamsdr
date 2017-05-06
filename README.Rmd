@@ -61,12 +61,12 @@ eq_get_data() %>% eq_clean_data %>% head
 ```
 
 
-### Visualize a timeline of the dataset
+### Visualise a timeline of the dataset
 It could be useful to visualize the earthquakes across time and other variables
 This is implemented in a couple of ggplot2's geoms: 
 
 ```{r}
-df <- eq_get_data() %>%
+df <- eq_get_data () %>%
   eq_clean_data %>%
   filter(!is.na(EQ_PRIMARY)) %>%
   filter(year(DATE) > 2000) %>%
