@@ -1,8 +1,8 @@
 
-NOAACoursera
+noaamsdr
 ============
 
-[![Build Status](https://travis-ci.org/JhossePaul/NOAACoursera.svg?branch=master)](https://travis-ci.org/JhossePaul/NOAACoursera)
+[![Build Status](https://travis-ci.org/rhkaz/noaamsdr.svg?branch=master)](https://travis-ci.org/rhkaz/noaamsdr)
 
 [Building details](https://travis-ci.org/rhkaz/noaamsdr)
 
@@ -48,7 +48,7 @@ library(lubridate)
 #> The following object is masked from 'package:base':
 #> 
 #>     date
-library(NOAACoursera)
+library(noaamsdr)
 eq_get_data() %>% glimpse
 #> Observations: 5,934
 #> Variables: 47

@@ -10,7 +10,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# NOAACoursera
+# noaamsdr
 
 [![Build Status](https://travis-ci.org/rhkaz/noaamsdr.svg?branch=master)](https://travis-ci.org/rhkaz/noaamsdr) 
 
