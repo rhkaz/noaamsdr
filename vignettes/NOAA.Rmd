@@ -1,6 +1,6 @@
 ---
-title: "NOAACoursera: Capstone project for Coursera"
-author: "Jhosse Paul Marquez Ruiz"
+title: "noaamsdr: Capstone project for Coursera"
+author: "Rashid Kazmi"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
@@ -30,7 +30,7 @@ specify another path. Just write
 ```{r}
 library(tidyverse)
 library(lubridate)
-library(NOAACoursera)
+library(noaamsdr)
 
 eq_get_data() %>% glimpse
 ```
